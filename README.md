@@ -1,4 +1,4 @@
-# 🛡️ Decentralized Academic Certificate Verification System
+# 🛡️ CertChain: Decentralized Academic Certificate Verification
 
 Issue tamper-proof academic certificates on the blockchain and verify them in
 seconds with a QR code. Built with Solidity, Hardhat, IPFS (Pinata), React, and
@@ -44,7 +44,7 @@ ethers.js + MetaMask.
 ## 📁 Project structure
 
 ```
-certificate-verification/
+CertChain/
 ├── contract/                      # Hardhat smart-contract project
 │   ├── contracts/CertificateVerification.sol
 │   ├── scripts/deploy.js
