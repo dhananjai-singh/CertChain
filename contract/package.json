@@ -1,0 +1,22 @@
+{
+  "name": "certificate-verification-contract",
+  "version": "1.0.0",
+  "description": "Smart contract for decentralized academic certificate verification on Polygon Mumbai",
+
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network mumbai",
+    "test": "hardhat test",
+    "node": "hardhat node"
+  },
+
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.19.0"
+  },
+
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
+    "dotenv": "^16.3.1"
+  }
+}

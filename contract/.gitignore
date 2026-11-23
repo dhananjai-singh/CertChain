@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Secrets — NEVER commit real keys
+.env
+
+# Hardhat build output
+artifacts/
+cache/
+
+# Logs
+npm-debug.log*
